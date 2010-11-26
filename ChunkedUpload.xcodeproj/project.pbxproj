@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE6B607912A03BA900250738 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6B607812A03BA900250738 /* Cocoa.framework */; };
+		DE6B607E12A03BA900250738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE6B607C12A03BA900250738 /* InfoPlist.strings */; };
+		DE6B608012A03BA900250738 /* ChunkedUpload-main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6B607F12A03BA900250738 /* ChunkedUpload-main.m */; };
+		DE6B608312A03BA900250738 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6B608112A03BA900250738 /* MainMenu.xib */; };
+		DE6B608612A03BA900250738 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DE6B608412A03BA900250738 /* Credits.rtf */; };
+		DE6B608912A03BA900250738 /* ChunkedUploadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6B608812A03BA900250738 /* ChunkedUploadAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE6B607512A03BA900250738 /* ChunkedUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChunkedUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6B607812A03BA900250738 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DE6B607A12A03BA900250738 /* ChunkedUpload-Info.plist */ = {isa = PBXFileReference; path = "ChunkedUpload-Info.plist"; sourceTree = "<group>"; };
+		DE6B607B12A03BA900250738 /* ChunkedUpload-Prefix.pch */ = {isa = PBXFileReference; path = "ChunkedUpload-Prefix.pch"; sourceTree = "<group>"; };
+		DE6B607D12A03BA900250738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE6B607F12A03BA900250738 /* ChunkedUpload-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChunkedUpload-main.m"; sourceTree = "<group>"; };
+		DE6B608212A03BA900250738 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DE6B608512A03BA900250738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DE6B608712A03BA900250738 /* ChunkedUploadAppDelegate.h */ = {isa = PBXFileReference; path = ChunkedUploadAppDelegate.h; sourceTree = "<group>"; };
+		DE6B608812A03BA900250738 /* ChunkedUploadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChunkedUploadAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE6B607212A03BA900250738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6B607912A03BA900250738 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE6B606612A03BA900250738 = {
+			isa = PBXGroup;
+			children = (
+				DE6B606D12A03BA900250738 /* Classes */,
+				DE6B606E12A03BA900250738 /* Other Sources */,
+				DE6B606F12A03BA900250738 /* Resources */,
+				DE6B607012A03BA900250738 /* Frameworks */,
+				DE6B607612A03BA900250738 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE6B606D12A03BA900250738 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B608712A03BA900250738 /* ChunkedUploadAppDelegate.h */,
+				DE6B608812A03BA900250738 /* ChunkedUploadAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DE6B606E12A03BA900250738 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B607B12A03BA900250738 /* ChunkedUpload-Prefix.pch */,
+				DE6B607F12A03BA900250738 /* ChunkedUpload-main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		DE6B606F12A03BA900250738 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B607A12A03BA900250738 /* ChunkedUpload-Info.plist */,
+				DE6B607C12A03BA900250738 /* InfoPlist.strings */,
+				DE6B608112A03BA900250738 /* MainMenu.xib */,
+				DE6B608412A03BA900250738 /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DE6B607012A03BA900250738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B607812A03BA900250738 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE6B607612A03BA900250738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE6B607512A03BA900250738 /* ChunkedUpload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE6B607412A03BA900250738 /* ChunkedUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6B608C12A03BA900250738 /* Build configuration list for PBXNativeTarget "ChunkedUpload" */;
+			buildPhases = (
+				DE6B607112A03BA900250738 /* Sources */,
+				DE6B607212A03BA900250738 /* Frameworks */,
+				DE6B607312A03BA900250738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChunkedUpload;
+			productName = ChunkedUpload;
+			productReference = DE6B607512A03BA900250738 /* ChunkedUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE6B606812A03BA900250738 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = DE6B606B12A03BA900250738 /* Build configuration list for PBXProject "ChunkedUpload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE6B606612A03BA900250738;
+			productRefGroup = DE6B607612A03BA900250738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE6B607412A03BA900250738 /* ChunkedUpload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE6B607312A03BA900250738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6B607E12A03BA900250738 /* InfoPlist.strings in Resources */,
+				DE6B608312A03BA900250738 /* MainMenu.xib in Resources */,
+				DE6B608612A03BA900250738 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE6B607112A03BA900250738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE6B608012A03BA900250738 /* ChunkedUpload-main.m in Sources */,
+				DE6B608912A03BA900250738 /* ChunkedUploadAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE6B607C12A03BA900250738 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6B607D12A03BA900250738 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE6B608112A03BA900250738 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6B608212A03BA900250738 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		DE6B608412A03BA900250738 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE6B608512A03BA900250738 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE6B608A12A03BA900250738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DE6B608B12A03BA900250738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DE6B608D12A03BA900250738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChunkedUpload-Prefix.pch";
+				INFOPLIST_FILE = "ChunkedUpload-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE6B608E12A03BA900250738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ChunkedUpload-Prefix.pch";
+				INFOPLIST_FILE = "ChunkedUpload-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE6B606B12A03BA900250738 /* Build configuration list for PBXProject "ChunkedUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6B608A12A03BA900250738 /* Debug */,
+				DE6B608B12A03BA900250738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6B608C12A03BA900250738 /* Build configuration list for PBXNativeTarget "ChunkedUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE6B608D12A03BA900250738 /* Debug */,
+				DE6B608E12A03BA900250738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE6B606812A03BA900250738 /* Project object */;
+}
