@@ -3,7 +3,7 @@
 //  ChunkedUpload
 //
 //  Created by Evan Owen on 11/26/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 kainosnoema. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

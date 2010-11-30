@@ -1,0 +1,18 @@
+===========
+What is it?
+===========
+
+ChunkUpload is an experimental Objective-C/node.js project demonstrating a
+method to upload very large files by splitting them into small 1-5 MB chunks
+and distributing them across multiple concurrent HTTP POST requests. Using
+this method, pausing and resuming uploads should be quite simple and will be
+implemented soon.
+
+=============
+Project Goals:
+=============
+
+- Upload very large files
+- Show real-time upload feedback
+- Pause and resume uploads
+- Use minimal memory footprint

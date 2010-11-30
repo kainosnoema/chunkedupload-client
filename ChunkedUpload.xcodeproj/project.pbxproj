@@ -12,20 +12,30 @@
 		DE6B608012A03BA900250738 /* ChunkedUpload-main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6B607F12A03BA900250738 /* ChunkedUpload-main.m */; };
 		DE6B608312A03BA900250738 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE6B608112A03BA900250738 /* MainMenu.xib */; };
 		DE6B608612A03BA900250738 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DE6B608412A03BA900250738 /* Credits.rtf */; };
-		DE6B608912A03BA900250738 /* ChunkedUploadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6B608812A03BA900250738 /* ChunkedUploadAppDelegate.m */; };
+		DEC2985912A03C8400A63BAB /* ChunkedUploadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2985312A03C8400A63BAB /* ChunkedUploadAppDelegate.m */; };
+		DEC2985A12A03C8400A63BAB /* ChunkedUploadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2985612A03C8400A63BAB /* ChunkedUploadOperation.m */; };
+		DEC2985B12A03C8400A63BAB /* ChunkedUploadQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC2985812A03C8400A63BAB /* ChunkedUploadQueue.m */; };
+		DEDCBDFF12A371E500981BCA /* KNURLPostRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDCBDFE12A371E500981BCA /* KNURLPostRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE6B607512A03BA900250738 /* ChunkedUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChunkedUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE6B607812A03BA900250738 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		DE6B607A12A03BA900250738 /* ChunkedUpload-Info.plist */ = {isa = PBXFileReference; path = "ChunkedUpload-Info.plist"; sourceTree = "<group>"; };
-		DE6B607B12A03BA900250738 /* ChunkedUpload-Prefix.pch */ = {isa = PBXFileReference; path = "ChunkedUpload-Prefix.pch"; sourceTree = "<group>"; };
+		DE6B607A12A03BA900250738 /* ChunkedUpload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChunkedUpload-Info.plist"; sourceTree = "<group>"; };
+		DE6B607B12A03BA900250738 /* ChunkedUpload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChunkedUpload-Prefix.pch"; sourceTree = "<group>"; };
 		DE6B607D12A03BA900250738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		DE6B607F12A03BA900250738 /* ChunkedUpload-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ChunkedUpload-main.m"; sourceTree = "<group>"; };
+		DE6B607F12A03BA900250738 /* ChunkedUpload-main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "ChunkedUpload-main.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		DE6B608212A03BA900250738 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DE6B608512A03BA900250738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DE6B608712A03BA900250738 /* ChunkedUploadAppDelegate.h */ = {isa = PBXFileReference; path = ChunkedUploadAppDelegate.h; sourceTree = "<group>"; };
-		DE6B608812A03BA900250738 /* ChunkedUploadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChunkedUploadAppDelegate.m; sourceTree = "<group>"; };
+		DEC2985212A03C8400A63BAB /* ChunkedUploadAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ChunkedUploadAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DEC2985312A03C8400A63BAB /* ChunkedUploadAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ChunkedUploadAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DEC2985412A03C8400A63BAB /* ChunkedUploadConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ChunkedUploadConstants.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DEC2985512A03C8400A63BAB /* ChunkedUploadOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ChunkedUploadOperation.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DEC2985612A03C8400A63BAB /* ChunkedUploadOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ChunkedUploadOperation.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DEC2985712A03C8400A63BAB /* ChunkedUploadQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ChunkedUploadQueue.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DEC2985812A03C8400A63BAB /* ChunkedUploadQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ChunkedUploadQueue.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DEDCBDFD12A371E500981BCA /* KNURLPostRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; path = KNURLPostRequest.h; sourceTree = "<group>"; };
+		DEDCBDFE12A371E500981BCA /* KNURLPostRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = KNURLPostRequest.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,15 @@
 		DE6B606D12A03BA900250738 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				DE6B608712A03BA900250738 /* ChunkedUploadAppDelegate.h */,
-				DE6B608812A03BA900250738 /* ChunkedUploadAppDelegate.m */,
+				DEC2985212A03C8400A63BAB /* ChunkedUploadAppDelegate.h */,
+				DEC2985312A03C8400A63BAB /* ChunkedUploadAppDelegate.m */,
+				DEC2985412A03C8400A63BAB /* ChunkedUploadConstants.h */,
+				DEC2985512A03C8400A63BAB /* ChunkedUploadOperation.h */,
+				DEC2985612A03C8400A63BAB /* ChunkedUploadOperation.m */,
+				DEC2985712A03C8400A63BAB /* ChunkedUploadQueue.h */,
+				DEC2985812A03C8400A63BAB /* ChunkedUploadQueue.m */,
+				DEDCBDFD12A371E500981BCA /* KNURLPostRequest.h */,
+				DEDCBDFE12A371E500981BCA /* KNURLPostRequest.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -157,7 +174,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE6B608012A03BA900250738 /* ChunkedUpload-main.m in Sources */,
-				DE6B608912A03BA900250738 /* ChunkedUploadAppDelegate.m in Sources */,
+				DEC2985912A03C8400A63BAB /* ChunkedUploadAppDelegate.m in Sources */,
+				DEC2985A12A03C8400A63BAB /* ChunkedUploadOperation.m in Sources */,
+				DEC2985B12A03C8400A63BAB /* ChunkedUploadQueue.m in Sources */,
+				DEDCBDFF12A371E500981BCA /* KNURLPostRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +216,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -229,6 +249,8 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChunkedUpload-Prefix.pch";
 				INFOPLIST_FILE = "ChunkedUpload-Info.plist";
@@ -245,6 +267,8 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChunkedUpload-Prefix.pch";
 				INFOPLIST_FILE = "ChunkedUpload-Info.plist";
