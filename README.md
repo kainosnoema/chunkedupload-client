@@ -1,13 +1,15 @@
+chunkedupload-client
+=============
+
 ## DESCRIPTION
 
-ChunkUpload is an experimental Objective-C project demonstrating a
+chunkedupload-client is an experimental Objective-C project demonstrating a
 method to upload very large files by splitting them into small 1-5 MB chunks
 and distributing them across multiple concurrent HTTP POST requests. Using
 this method, pausing and resuming uploads should be quite simple and will be
 implemented soon.
 
-For the companion node.js server project, see:
-http://github.com/kainosnoema/chunkedupload-server
+For the companion node.js server project, see [chunkedupload-server](http://github.com/kainosnoema/chunkedupload-server).
 
 ## Project Goals:
 
