@@ -10,6 +10,3 @@
 
 static NSInteger const ChunkedUploadChunkSize = 5 * (1024 * 1024);
 static NSInteger const ChunkedUploadConcurrentOperations = 5;
-
-typedef void(^ChunkedUploadHandler)(id body, NSHTTPURLResponse *response, NSError *error);
-typedef void(^ChunkedUploadProgressHandler)(float progress, NSString *path);
